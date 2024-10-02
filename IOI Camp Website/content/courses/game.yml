@@ -1,0 +1,11 @@
+name: 組合賽局
+preknowledge:
+  - 數學歸納法
+  - XOR(exclusive or)
+abstract:
+  - 組合賽局的定義與分類
+  - 賽局和
+  - Nim
+  - SG定理(Sprague–Grundy theorem)
+  - Hackenbush
+  - 簡化原理(Simplicity principle)

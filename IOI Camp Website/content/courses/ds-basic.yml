@@ -1,0 +1,9 @@
+name: 資料結構初階
+preknowledge:
+  - 圖和樹的基本概念
+abstract:
+  - 線段樹
+  - BIT
+  - Treap
+  - 持久化資料結構(並查集、Treap、線段樹)
+

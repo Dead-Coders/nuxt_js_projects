@@ -1,0 +1,8 @@
+name: 數學
+preknowledge:
+  - 高中課內數學
+abstract:
+  - 計數
+  - 數論
+  - FFT&NTT
+  - 生成函數

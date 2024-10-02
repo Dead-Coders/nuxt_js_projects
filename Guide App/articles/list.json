@@ -1,0 +1,14 @@
+{
+    "/": {
+        "title": "Home"
+    },
+    "configuration": {
+        "title": "Configuration"
+    },
+    "see-also": {
+        "title": "See also"
+    },
+    "add": {
+        "title": "Add new"
+    }
+}

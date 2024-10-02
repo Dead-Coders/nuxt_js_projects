@@ -1,0 +1,105 @@
+:root {
+    --primary-color: rgb(39, 179, 97);
+    --inactive-color: rgba(43, 55, 184, 0.061);
+    --background-color: rgb(7, 9, 29);
+    --sidebar-color: rgb(9, 12, 37);
+    --text-color: rgba(255, 255, 255, 0.88);
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color); 
+}
+
+::selection {
+    color: white;
+    background: var(--primary-color); 
+}
+
+* {
+    margin: 0 !important;
+    overflow-x: hidden;
+}
+
+body {
+    color: var(--text-color);
+    background: var(--background-color);
+}
+
+main {
+    min-height: 87.7vh;
+}
+
+footer {
+    font-size: 0.8rem;
+}
+
+a, a:hover {
+    color: var(--primary-color);
+}
+
+article > section > p {
+    margin: 0 0 20px 10px !important;
+}
+
+article > section > ul > li::before, article > section > ul > li > ul > li::before {
+    content: "- ";
+    color: var(--primary-color);
+    margin: 5px 0 5px 5px !important;
+}
+
+
+table, tr, td, th {
+    margin: 0 0 20px 10px !important;
+    padding: 5px 20px;
+    font-size: 0.82rem;
+}
+
+table {
+    display: block;
+    overflow: auto !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    overflow: hidden !important;
+    padding: 15px 0;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2.1rem;
+    color: white;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+span.badge.badge-guide {
+    background: var(--primary-color);
+    margin: 0 5px -5px 5px !important;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+span.hash, code {
+    color: var(--primary-color);
+}
+
+img.icon {
+    height: 20px;
+    width: auto;
+    max-width: 22px;
+}
+
+pre {
+    color: white;
+}

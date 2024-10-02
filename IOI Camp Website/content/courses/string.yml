@@ -1,0 +1,10 @@
+name: 字串
+preknowledge:
+  - 字串的輸入、儲存、語法
+abstract:
+  - Trie
+  - Hash
+  - Z-value
+  - KMP
+  - Suffix array
+  - AC 自動機
